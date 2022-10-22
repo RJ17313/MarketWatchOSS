@@ -1,4 +1,4 @@
-# StockWatchOSS
+# MarketWatchOSS
 An open-source version of the StockWatch discord bot
 
 Required:
