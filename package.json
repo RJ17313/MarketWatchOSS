@@ -1,35 +1,29 @@
 {
-  "name": "StockWatch",
+  "name": "discord-bot-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/client/client.js",
+  "main": "./src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/client/client.js",
-    "dev": "eslint --fix src/* && node src/client/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pradhamk/StockWatchOSS.git"
+    "url": "git+https://github.com/RJ17313/discord-bot-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pradhamk/StockWatchOSS/issues"
+    "url": "https://github.com/RJ17313/discord-bot-template/issues"
   },
-  "homepage": "https://github.com/pradhamk/StockWatchOSS#readme",
+  "homepage": "https://github.com/RJ17313/discord-bot-template#readme",
   "dependencies": {
-    "axios": "^0.27.2",
-    "discord.js": "^14.3.0",
-    "mongodb": "^4.9.0",
-    "npmlog": "^6.0.2"
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^6.0.0"
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.26.0"
   }
 }

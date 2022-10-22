@@ -1,3 +1,0 @@
-Insider trading information will be added to the automatic updates
-Self-hosted version will be out soon
-Slash commands will be implemented
